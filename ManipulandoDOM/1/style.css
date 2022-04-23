@@ -72,3 +72,17 @@ li {
   cursor: pointer;
   padding: 5px;
 }
+
+.image {
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  height: 500px;
+  margin: 10px auto;
+  border: 2px solid #fff;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  
+}

@@ -2,6 +2,7 @@ let inputTarefa = document.getElementById('tarefa')
 let btnTarefa = document.getElementById('btn-tarefa')
 let lista = document.getElementById('list-tarefas')
 
+// adicionar tarefa
 btnTarefa.addEventListener('click', e => {
   let li = document.createElement('li')
   li.setAttribute('class', 'li-tarefa')
@@ -17,6 +18,8 @@ btnTarefa.addEventListener('click', e => {
   inputTarefa.value = '';
 })
 
+
+// apagar tarefa
 document.addEventListener('click', e => {
   const el = e.target
   if (el.classList.contains('li-btn')) {
